@@ -15,10 +15,10 @@ return RectorConfig::configure()
     ->withPreparedSets(
         deadCode: true,
         codeQuality: true,
-        //typeDeclarations: true,
-        //privatization: true,
-        //earlyReturn: true,
-        //strictBooleans: true,
+        // typeDeclarations: true,
+        // privatization: true,
+        // earlyReturn: true,
+        // strictBooleans: true,
     )
     /*->withPhpSets(php82: true)
     ->withTypeCoverageLevel(0)*/;

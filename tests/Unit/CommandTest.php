@@ -198,7 +198,7 @@ it('does handle Model updates for extended fields and casts', function () {
     // Arrange
     KeyRotate::withListener()
         ->withModel(Secret::class)
-        //->withModelFields(Secret::class, ['secret'])
+        // ->withModelFields(Secret::class, ['secret'])
         ->withCast(CustomCast::class);
 
     // Before
