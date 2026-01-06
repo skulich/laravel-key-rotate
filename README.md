@@ -1,7 +1,12 @@
 # Laravel Key Rotate
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/sergkulich/laravel-key-rotate.svg?style=flat-square)](https://packagist.org/packages/sergkulich/laravel-key-rotate)
-[![Total Downloads](https://img.shields.io/packagist/dt/sergkulich/laravel-key-rotate.svg?style=flat-square)](https://packagist.org/packages/sergkulich/laravel-key-rotate)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sergkulich/laravel-key-rotate.svg)](https://packagist.org/packages/sergkulich/laravel-key-rotate)
+![PHP Version Require](https://img.shields.io/packagist/php-v/sergkulich/laravel-key-rotate)
+![Laravel Version](https://img.shields.io/badge/laravel-%5E11.0%20-red?logo=laravel)
+[![Run Tests](https://github.com/sergkulich/laravel-key-rotate/actions/workflows/tests.yml/badge.svg)](https://github.com/sergkulich/laravel-key-rotate/actions)
+![Code Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
+![License](https://img.shields.io/packagist/l/sergkulich/laravel-key-rotate.svg)
+[![Total Downloads](https://img.shields.io/packagist/dt/sergkulich/laravel-key-rotate.svg)](https://packagist.org/packages/sergkulich/laravel-key-rotate)
 
 Laravel Key Rotate package allows automatically copy current `APP_KEY` and update `APP_PREVIOUS_KEYS` with it,
 After that it will call `key:generate` artisan command to generate new `APP_KEY`, and, optionally, update all your
